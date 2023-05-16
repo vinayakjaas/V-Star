@@ -11,7 +11,7 @@ function Header(){
     return(
         <div className=" text-3xl flex justify-between items-center text-red-500 font-extrabold p-3 border-b-2 border-gray-500 ">
             
-            <Link to={'/'}><div className='cursor-pointer'><span>Filmy<span className="text-white">Verse</span></span></div></Link>
+            <Link to={'/'}><div className='cursor-pointer'><span>V<span className="text-white">Star</span></span></div></Link>
             {useAppstate.login ?
             <Link to={'/addMovie'}><Button className='text-white'><h1 className="text-lg text-blue-500 flex items-center cursor-pointer"><AddIcon className='mr-2 text'/><span className='text-white'>Add New</span></h1></Button></Link>
             :
